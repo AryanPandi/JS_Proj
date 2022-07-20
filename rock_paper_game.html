@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #game{
+            width: 100%;
+            height: 250px;
+            border-radius: 25px;
+            border: 4px solid ;
+            text-align: center;
+            background-color: #3456;
+        }
+        button{
+            width: 100px;
+            height: 20px;
+            border-radius: 20px;
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+    <div id="game">
+        <h1 class="gt" id="p">Player: </h1>
+        <h1 class="gt" id="c">Computer: </h1>
+        <h1 class="gt" id="res">Result: </h1>
+
+        <button class="btn" id="rk"  onclick="r()">ROCK</button>
+        <button class="btn" id="pa" onclick="p()">PAPER</button>
+        <button class="btn" id="sc" onclick="s()">SCISSORS</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
